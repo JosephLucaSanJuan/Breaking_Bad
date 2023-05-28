@@ -1,0 +1,61 @@
+/***************************/
+/*       BREAKING BAD      */
+/*        Versión 1        */
+/*   Autor: Joseph Luca    */
+/*     Fecha: 28/5/2023    */
+/*                         */
+/***************************/
+
+/* GENERAL */
+
+body {background-image: url('../images/RV_in_the_desert.jpg');
+      background-repeat: repeat-y;
+      background-position: center;
+      background-size: cover;}
+
+#wrapper {background-color: darkgreen;
+          margin: auto;
+          }
+
+.bg-purple {background-color: purple;}
+.bg-green {background-color: chartreuse;}
+.bg-magenta {background-color: magenta;}
+
+/** NAVBAR **/
+
+nav {position: sticky !important;
+     background-color: green !important;
+     top: 0;
+     z-index: 99;}
+
+nav a {color:yellow !important;}
+
+#logo {width: 40px;}
+
+/** HERO SECTION **/
+
+#hero {
+     background-image: url('../images/Breaking-Bad.jpg');
+     height: 90vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     text-align: center;
+}
+
+/** INTRODUCCION SECTION **/
+
+#intro {
+     border-bottom: 1px solid chartreuse;
+}
+
+.title {text-align: center !important;
+        color: chartreuse;}
+
+p {color: chartreuse;}
+
+/** PERSONAJES SECTION **/
+
+#personajes {text-align: center;}
+
+.card {width: 18rem;}
