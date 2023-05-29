@@ -8,8 +8,13 @@
 
 /* GENERAL */
 
+@font-face {
+     font-family: bb;
+     src: url('../fonts/breaking-bad-heart-breaking-bad-font-betterstudio.com/Heart\ Breaking\ Bad.otf');
+}
+
 body {background-image: url('../images/RV_in_the_desert.jpg');
-      background-repeat: repeat-y;
+      background-repeat: repeat-y !important;
       background-position: center;
       background-size: cover;}
 
@@ -43,6 +48,18 @@ nav a {color:yellow !important;}
      text-align: center;
 }
 
+#titulo {
+     background-color: chartreuse;
+     font-family: bb;
+     margin: auto;
+     text-align: center;
+     border-radius: 100%;
+     padding: 10px;
+     top: 40%;
+     left: 20%;
+     position: absolute;
+}
+
 /** INTRODUCCION SECTION **/
 
 #intro {
@@ -50,12 +67,26 @@ nav a {color:yellow !important;}
 }
 
 .title {text-align: center !important;
-        color: chartreuse;}
+        color: chartreuse;
+        font-family: bb;
+        font-size: 5rem !important;}
 
 p {color: chartreuse;}
 
 /** PERSONAJES SECTION **/
 
-#personajes {text-align: center;}
+#personajes {text-align: center;
+             border-bottom: 1px solid chartreuse;}
 
 .card {width: 18rem;}
+
+/** SPIN-OFFS **/
+
+#spinoffs {border-bottom: 1px solid chartreuse;}
+
+/** FOOTER **/
+
+footer p {text-align: center;
+          color: chartreuse;}
+
+footer .fa {font-size: 2rem;}
