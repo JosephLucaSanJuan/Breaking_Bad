@@ -84,6 +84,16 @@ p {color: chartreuse;}
 
 #spinoffs {border-bottom: 1px solid chartreuse;}
 
+/** REGISTRO **/
+
+#registro {border-bottom: 1px solid chartreuse;}
+
+.error {color: red;
+        font-size: 70%;
+        visibility: hidden;}
+
+.form-label {color: chartreuse;}
+
 /** FOOTER **/
 
 footer p {text-align: center;
